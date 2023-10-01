@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbuddawafrmcs"]
+
+[ext_resource type="Texture2D" uid="uid://b5deo5o6tqnax" path="res://Sprites/Red.png" id="1_puodl"]
+[ext_resource type="Script" path="res://Scenes/empty.gd" id="1_ybbs5"]
+
+[node name="empty" type="Node2D"]
+script = ExtResource("1_ybbs5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 1, 0.615686)
+texture = ExtResource("1_puodl")

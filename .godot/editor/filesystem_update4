@@ -1,0 +1,6 @@
+res://Scenes/hellow_godot.tscn
+res://Scenes/reg_agent.tscn
+res://Scenes/red_goal.tscn
+res://Scenes/empty.tscn
+res://Scenes/block.tscn
+res://Scenes/level0.gd

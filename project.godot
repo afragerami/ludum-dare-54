@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="Ludum Dare 54"
+run/main_scene="res://Scenes/hellow_godot.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1500
+window/size/viewport_height=1500
+window/stretch/mode="viewport"
 
 [rendering]
 
